@@ -5010,10 +5010,10 @@ a img {
 .user-details {
     text-align: center;
     margin: 5px auto;
-    color: #0ef;
+    color: rgb(243, 251, 7);
 }
 .user-details h1{
-    color: #0ef;
+    color: rgb(250, 0, 208);
 }
 
 #projects {
@@ -5051,7 +5051,8 @@ a img {
 }
 
 .user-projects p {
-    margin-right: 5px
+    margin-right: 5px;
+    color: rgb(238, 238, 238);
 }
 
 @media only screen and (min-width:550px) {
@@ -5064,6 +5065,9 @@ a img {
     }
     .contents-right h3{
         color: #0ef;
+    }
+    .contents-right p{
+        color: rgb(240, 240, 240);
     }
     .contents,
     .contents-right {
